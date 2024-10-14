@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forums - ROG Romania</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding:0;
+            background-color: #363636;
+            h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    width=device-width, initial-scale=1.0
+}
+        }
+        header{
+            background-image: url(https://cdn.discordapp.com/attachments/1286384367962161160/1287033452536922164/ceamaibengoasa.png?ex=670d13cf&is=670bc24f&hm=f41e0eae13b15e617538cf140d1480f2d71c1e8047eacae1ced1b0000ff28d69&);
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+
+        }
+        .header-title {
+            font-size: 36px;
+            color: #ffffff;
+            text-align: center;
+            animation: pulse 3.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        nav {
+            background-color: #1c1c1c;
+            text-align: center;
+            color:white;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover{
+            color:black;
+            background-color:#36608a;
+        }
+        .gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+.gallery img {
+    width: 600px;
+    border-radius: 10px;
+    height: 400px
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(5);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(3);
+    }
+}
+.description p {
+        
+                font-size: 30px; /* Setează o dimensiune mai mică pentru text */
+                color: #ffffff;
+                text-align: left; /* Poți schimba alinierea în stânga */
+                padding: 30px;
+                line-height: 1.5;
+
+             }
+             .description p:hover {
+    color: #debd1b; /* Schimbă culoarea textului la hover */
+    transition: color 1s ease; /* Efect de tranziție */
+}
+        .section-title {
+            font-size: 40px;
+            color: #ffffff;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header>
+   
+    <h2 class="header-title">ROG MILSIM</h2>
+
+</header>
+
+<nav>
+    <a href="website.html">Acasa</a>
+    <a href="#">Regulament</a>
+    <a href="#">Beneficii</a>
+    <a href="#">Aplicatii Staff</a>
+    <a href="#">Factiuni</a>
+
+</nav>
+<section class="description">
+    <h2 class="section-title">Despre Noi</h2>
+    <p>
+        <b>[ROG] Military Simulator - Info </b>
+        <br>
+
+Comunitatea "Romanian Garrison" aka [ROG] este prima comunitate cu tematica MILITARA avand "ROLEPLAY ADVANCED" pe platforma FiveM! Odata ce intrati pe aceasta comunitate aveti obligatia sa va comportati civilizat si sa cunoasteti regulamentul.Aveti indatoria sa aratati ca ati trecut/treceti printr-un sistem educational si ca ati aprofundat niste cunostinte.
+<br>
+<br>
+
+
+
+
+ Forum : rog-rp.ro/forum
+ <br>
+
+ TikTok : www.tiktok.com/@rog_militarysim
+ <br>
+
+ Discord : discord.gg/kM4H2HahFw
+ <br>
+
+ YouTube : www.youtube.com/@rogcommunityfivem
+ <br>
+
+ Instagram : www.instagram.com/rog_community
+ <br>
+ <br>
+
+
+  ©️ 2021-2024 ROG MilSim 
+    </p>
+</section>
+
+<section>
+    <h1>Galerie</h1>
+
+    <div class="gallery">
+        <img src="https://media.discordapp.net/attachments/1295065440829309099/1295070842723504159/Poza_de_pe_ROG.png?ex=670d5036&is=670bfeb6&hm=ddd37936835715554d26f2e39a00bfa233bce5ea371a36cb738f0d33e520f864&=&format=webp&quality=lossless&width=1080&height=516" alt="Eveniment 1">
+        <img src="https://cdn.discordapp.com/attachments/1259538366203039834/1292433556878135400/Screenshot_20241005-2310472.png?ex=670cf28c&is=670ba10c&hm=fd2d2d69715fd4154b775f6abc526ab90c29c5e3a06feb181190339534777318&" alt="Eveniment 2">
+        
+    </div>
+    <div class="gallery">
+        <img src="https://cdn.discordapp.com/attachments/1295065440829309099/1295073073023811614/Screenshot_2024-10-13_201749.png?ex=670d5249&is=670c00c9&hm=7fb496a1db4a8a76e1b42205d0fa2538a7fe732e136b2e28562d2c5cf7acb576&" alt="Eveniment 1">
+        <img src="https://cdn.discordapp.com/attachments/1017142017530278048/1286723691291349063/image.png?ex=670ded92&is=670c9c12&hm=ff1f46f04fdd3d8cfb2edb6007f6d3fc5bb9c31c9eaabcf9a33fe99d610df3a5&" alt="Eveniment 2">
+        
+    </div>
+    <div class="gallery">
+        <img src="https://cdn.discordapp.com/attachments/1295065440829309099/1295073159736725565/image.png?ex=670d525e&is=670c00de&hm=f235bfbd4111d733a81fedea74ad8ca98e3ee2f4eecf93b6401a637a54273f07&" alt="Eveniment 1">
+        <img src="https://cdn.discordapp.com/attachments/1286384367962161160/1286795635349262397/4.png?ex=670e3092&is=670cdf12&hm=ebfd6cd24332ef94b0a974a43b7435cb9500b6e1931a6da50d1b71aaafe0fe22&" alt="Eveniment 2">
+        
+    </div>
+</section>
+
+
+</body>
+</html>
